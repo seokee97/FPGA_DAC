@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\BME1\Desktop\m\ConnPIC\main.ncd
+OUTFILE=C:\Users\BME1\Desktop\m\ConnPIC\main.bit
+FAMILY=Spartan3
+PART=xc3s200-4ft256
+WORKINGDIR=C:\Users\BME1\Desktop\m\ConnPIC
+LICENSE=ISE
+USER_INFO=211996430_0_0_203

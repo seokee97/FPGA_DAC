@@ -1,0 +1,29 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Mon Oct 28 16:01:37 2024
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clk" LOCATE = SITE "D9" LEVEL 1;
+COMP "pic_data<0>" LOCATE = SITE "D7" LEVEL 1;
+COMP "pic_data<1>" LOCATE = SITE "D8" LEVEL 1;
+COMP "pic_data<2>" LOCATE = SITE "D10" LEVEL 1;
+COMP "pic_data<3>" LOCATE = SITE "B4" LEVEL 1;
+COMP "pic_data<4>" LOCATE = SITE "B5" LEVEL 1;
+COMP "mosi" LOCATE = SITE "D5" LEVEL 1;
+COMP "pic_data<5>" LOCATE = SITE "B6" LEVEL 1;
+COMP "pic_data<6>" LOCATE = SITE "A7" LEVEL 1;
+COMP "pic_data<7>" LOCATE = SITE "A8" LEVEL 1;
+COMP "pic_data<8>" LOCATE = SITE "B10" LEVEL 1;
+COMP "test_pin2" LOCATE = SITE "C6" LEVEL 1;
+COMP "test_pin3" LOCATE = SITE "C7" LEVEL 1;
+COMP "pic_data<9>" LOCATE = SITE "B11" LEVEL 1;
+COMP "test_pin4" LOCATE = SITE "C8" LEVEL 1;
+COMP "rx" LOCATE = SITE "A13" LEVEL 1;
+COMP "tx" LOCATE = SITE "A12" LEVEL 1;
+COMP "cs_n" LOCATE = SITE "E7" LEVEL 1;
+COMP "rst" LOCATE = SITE "E6" LEVEL 1;
+COMP "test_pin1" LOCATE = SITE "C5" LEVEL 1;
+COMP "sck" LOCATE = SITE "D6" LEVEL 1;
+NET "clk_BUFGP/IBUFG" BEL "clk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+
